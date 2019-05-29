@@ -9,8 +9,8 @@ import java.util.Random;
  */
 public class NumUtils {
 
-    public static final int LENGTH = 30000;
-    public static final int MAX = 10000000;
+    public static final int LENGTH = 30000;         // 产生的随机数数组长度
+    public static final int MAX = 10000000;         // 随机数的最大值
 
     /**
      * 获取随机int型整数
