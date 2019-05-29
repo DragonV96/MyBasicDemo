@@ -34,8 +34,6 @@ public class Quick {
         // 进入下一个循环
         quick(arr, left, i - 1);
         quick(arr, j + 1, right);
-
-
     }
 
     public static void main(String[] args) {
