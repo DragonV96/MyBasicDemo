@@ -6,7 +6,7 @@ package com.glw.design.principle.openclose;
  * @time : 15:30
  * @Description : 开闭原则：测试类
  */
-public class Test {
+public class OpenCloseTest {
 
     public static void main(String[] args) {
         ICourse course = new JavaDiscountCourse(96, "Java从入门到入土", 998D);
