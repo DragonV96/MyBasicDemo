@@ -12,13 +12,13 @@ public class ExchangeTwoVariable {
         x = x ^ y;
         System.out.println("第一次交换后，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
         y = x ^ y;
-        System.out.println("第二次交换后，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
+        System.out.println("第二次交换后，y=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
         x = x ^ y;
         System.out.println("最后交换后，x=" + x + "，y=" + y);
     }
 
     public static void main(String[] args) {
-        int x = 9, y = 60;
+        int x = 0, y = 22;
         System.out.println("交换前，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
         exchange(x, y);
     }
