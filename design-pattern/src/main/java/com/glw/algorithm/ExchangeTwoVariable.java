@@ -10,9 +10,9 @@ public class ExchangeTwoVariable {
 
     public static void exchange(int x, int y) {
         x = x ^ y;
-        System.out.println("第一次交换后，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
+        System.out.println("第一次交换后，x=" + x + "，y=" + y + "\ny = " + x + " ^ " + y);
         y = x ^ y;
-        System.out.println("第二次交换后，y=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
+        System.out.println("第二次交换后，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
         x = x ^ y;
         System.out.println("最后交换后，x=" + x + "，y=" + y);
     }
