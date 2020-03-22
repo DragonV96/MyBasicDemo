@@ -18,7 +18,7 @@ public class ExchangeTwoVariable {
     }
 
     public static void main(String[] args) {
-        int x = 0, y = 22;
+        int x = -22, y = 33;
         System.out.println("交换前，x=" + x + "，y=" + y + "\nx = " + x + " ^ " + y);
         exchange(x, y);
     }
