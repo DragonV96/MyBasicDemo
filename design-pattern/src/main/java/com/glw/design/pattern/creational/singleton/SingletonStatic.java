@@ -14,7 +14,7 @@ public class SingletonStatic {
         private static final SingletonStatic INSTANCE = new SingletonStatic();
     }
 
-    public SingletonStatic getInstance () {
+    public static SingletonStatic getInstance () {
         return Singleton.INSTANCE;
     }
 

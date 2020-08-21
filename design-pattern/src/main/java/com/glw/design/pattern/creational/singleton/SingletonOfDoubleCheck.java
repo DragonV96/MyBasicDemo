@@ -1,8 +1,5 @@
 package com.glw.design.pattern.creational.singleton;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Create by glw
  * 2019/1/14 22:04
@@ -17,7 +14,6 @@ public class SingletonOfDoubleCheck {
     public static volatile SingletonOfDoubleCheck singleton;
 
     private SingletonOfDoubleCheck(){
-        List list = new ArrayList();
     }
 
     public static SingletonOfDoubleCheck getInstance () {
